@@ -43,6 +43,7 @@ To download a video from an online .m3u8 manifest URL:
 
 Bash
 docker run --rm -v "$(pwd):/app" unencrypted-stream-media-downloader "https://example.com/path/to/manifest.m3u8" "media_01"
+
 Result: A new directory named media_01/ will be created, containing madia_01.mp4, media_01_en.srt, and media_01_en.srt.
 
 2. Single Download from a Local Manifest File
