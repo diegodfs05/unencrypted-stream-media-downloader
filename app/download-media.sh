@@ -18,7 +18,7 @@ process_download() {
         manifest_source="file://$(realpath "$manifest_source")"
     fi
 
-    yt-dlp -f "bv[height=1080]+ba/bestvideo+bestaudio" \
+    yt-dlp -f "bestvideo+bestaudio/best" \
       --merge-output-format mp4 \
       --write-subs \
       --sub-langs "en,pt" \
