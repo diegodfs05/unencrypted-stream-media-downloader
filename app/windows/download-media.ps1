@@ -1,5 +1,5 @@
 # É necessário instalar  o yt-dlp e o ffmpeg para utilizar o script
-## winget install yt-dlp
+## winget install yt-dlp.yt-dlp
 ## winget install Gyan.FFmpeg
 # Para verificar se estão instalados corretamente
 ## yt-dlp --version
